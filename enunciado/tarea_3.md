@@ -2,7 +2,7 @@
 layout: generic
 title: "Tarea 3: Testing"
 banner:
-  src: "/img/automation.jpg"
+  src: "img/automation.jpg"
   copy_url: ""
   copy: "unkown"
 ---
@@ -118,4 +118,4 @@ usar una librería que proporcione una api de más alto nivel como:
 	> global, user, virtual env
   
 
-<a href="/tarea_4" class="button big">Siguiente: Tarea 4</a>
+<a href="{{page.url|baseUrl}}tarea_4" class="button big">Siguiente: Tarea 4</a>

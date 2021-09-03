@@ -2,7 +2,7 @@
 layout: generic
 title: "Tarea 2: Diseño sw e implementación"
 banner:
-  src: "/img/pexels-thisisengineering-3861958.jpg"
+  src: "img/pexels-thisisengineering-3861958.jpg"
   copy_url: "https://www.pexels.com/es-es/foto/mujer-codificacion-en-computadora-3861958/"
   copy: "ThisIsEngineering"
 ---
@@ -129,4 +129,4 @@ $ sudo apt install gir1.2-gtk-3.0 python3-gi
 TODO: Por último, pero no menos importante, el servidor y la base de datos.
 
   
-<a href="/tarea_3" class="button big">Siguiente: Tarea 3</a>
+<a href="{{page.url|baseUrl}}tarea_3" class="button big">Siguiente: Tarea 3</a>

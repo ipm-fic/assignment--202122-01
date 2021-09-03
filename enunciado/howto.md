@@ -143,4 +143,4 @@ La aplicación incluye los siguientes casos de uso:
 		
 	
 
-<a href="/tarea_1" class="button big">Siguiente: Tarea 1</a>
+<a href="{{page.url|baseUrl}}tarea_1" class="button big">Siguiente: Tarea 1</a>

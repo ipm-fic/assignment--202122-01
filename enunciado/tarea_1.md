@@ -2,7 +2,7 @@
 layout: generic
 title: "Tarea 1: Diseño de la interface"
 banner:
-  src: "/img/pexels-picjumbocom-196644.jpg"
+  src: "img/pexels-picjumbocom-196644.jpg"
   copy_url: "https://www.pexels.com/es-es/foto/cuaderno-junto-al-iphone-en-la-mesa-196644/"
   copy: "picjumbo.com"
 ---
@@ -89,4 +89,4 @@ siguiente tabla:
 > autoevalues tu trabajo sobre un _clone_ de ese repositorio.
 
 
-<a href="/tarea_2" class="button big">Siguiente: Tarea 2</a>
+<a href="{{page.url|baseUrl}}tarea_2" class="button big">Siguiente: Tarea 2</a>

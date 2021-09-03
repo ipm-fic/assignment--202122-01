@@ -2,7 +2,7 @@
 layout: generic
 title: "Tarea 4: Concurrencia"
 banner:
-  src: "/img/pexels-burak-kebapci-63505.jpg"
+  src: "img/pexels-burak-kebapci-63505.jpg"
   copy_url: "https://www.pexels.com/es-es/foto/autobus-blanco-y-negro-durante-el-dia-63505/"
   copy: "Burak Kebapci"
 ---
