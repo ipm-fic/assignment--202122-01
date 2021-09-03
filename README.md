@@ -1,6 +1,6 @@
 # PRÁCTICA 1 - INTERFACES GRÁFICAS DE USUARIA PARA APLICACIONES DE ESCRITORIO
 
-Este es el repositorio de la práctica 1 de IPM, curso 2022.
+Este es el repositorio de la práctica 1 de IPM, curso 2021/22.
 
 
 ## Equipo de trabajo
