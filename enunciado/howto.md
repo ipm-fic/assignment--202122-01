@@ -140,7 +140,9 @@ La aplicación incluye los siguientes casos de uso:
 		
 Los códigos QR están asociados a una persona e incluyen la siguiente
 información: nombre, apellidos, uuid de su entrada en la BD.
-TODO: formato de la información en el QR. Maybe csv-like: "{nombre},{apellidos},{uuid}"
+
+    La información incluida en el QR es común para todos los componentes del sistema.
+	Es un string con el siguiente formato: "{nombre},{apellidos},{uuid}"
 	
 
 <a href="{{page.url|baseUrl}}tarea_1" class="button big">Siguiente: Tarea 1</a>
