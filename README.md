@@ -42,5 +42,5 @@ El enunciado de la práctica se encuentra en el directorio
 [`enunciado`](enunciado/). Los documentos html se pueden generar a
 partir de los fuentes con la herramienta
 [eleventy](https://www.11ty.dev/), pero también se incluye una versión
-ya _construida_ en el directorio
-[`enunciado/_site/index.html`](enunciado/_site/index.html).
+ya _construida_ en el directorio [`docs`](docs/index.html), y se puede consultar
+en [github pages](https://ipm-fic.github.io/assignment--202122-01/).
