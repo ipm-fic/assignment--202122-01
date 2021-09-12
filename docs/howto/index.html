@@ -93,9 +93,6 @@ detectar las carencias y fortalezas de tu trabajo.</p>
 las tareas anteriores. Por ejemplo, en la tarea 4, modificarás los
 diagramas UML de la tarea 2. Utiliza las tablas de las tareas
 anteriores para autoevaluar dichos aspectos.</p>
-<h2>Servidor</h2>
-<p>TODO: descripción general del servidor, el tipo de api, la BD, ...
-La url, instalación, ... en el apartado de recursos de la tarea 2.</p>
 <h2>Descripción de la aplicación</h2>
 <p>La aplicación que tienes que desarrollar forma parte de un sistema de
 control de accesos covid-19. El sistema consta de los siguientes
@@ -105,6 +102,10 @@ contenedores:</p>
 <p>Una B.D. donde se almacena información de las instalaciones,
 entidades, miembros de las entidades, fechas de acceso a las
 instalaciones, etc.</p>
+</li>
+<li>
+<p>Un servidor que proporciona acceso a la B.D. mediante un api tipo
+REST.</p>
 </li>
 <li>
 <p>Una aplicación web que permite a las usuarias del sistema las
@@ -136,6 +137,8 @@ herramienta es análoga a los ruedines de una bicicleta.
 Lenguaje de programación: python3
 
 Librería gráfica: Gtk+3
+
+Protocolo para testing: AT-SPI
 </code></pre>
 <h3>Requisitos funcionales</h3>
 <p>La aplicación incluye los siguientes casos de uso:</p>
@@ -147,6 +150,9 @@ Rastrear altertas covid-19
     Permite obtener la lista de personas que compartieron instalación con una determinada
 	persona en un período de tiempo (normalmente hasta la fecha actual).
 </code></pre>
+<p>Los códigos QR están asociados a una persona e incluyen la siguiente
+información: nombre, apellidos, uuid de su entrada en la BD.
+TODO: formato de la información en el QR. Maybe csv-like: &quot;{nombre},{apellidos},{uuid}&quot;</p>
 <p><a href="../tarea_1" class="button big">Siguiente: Tarea 1</a></p>
 
   

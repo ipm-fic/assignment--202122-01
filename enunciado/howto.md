@@ -78,14 +78,6 @@ diagramas UML de la tarea 2. Utiliza las tablas de las tareas
 anteriores para autoevaluar dichos aspectos.
 
 
-## Servidor
-
-
-TODO: descripción general del servidor, el tipo de api, la BD, ...
-La url, instalación, ... en el apartado de recursos de la tarea 2.
-
-
-
 ## Descripción de la aplicación
 
 La aplicación que tienes que desarrollar forma parte de un sistema de
@@ -95,6 +87,9 @@ contenedores:
 - Una B.D. donde se almacena información de las instalaciones,
   entidades, miembros de las entidades, fechas de acceso a las
   instalaciones, etc.
+  
+- Un servidor que proporciona acceso a la B.D. mediante un api tipo
+  REST.
   
 - Una aplicación web que permite a las usuarias del sistema las
   operaciones habituales de alta en el sistema, consulta y
@@ -127,6 +122,8 @@ resultados, todo a través de una interface gráfica.
     Lenguaje de programación: python3
 	
 	Librería gráfica: Gtk+3
+	
+	Protocolo para testing: AT-SPI
 
 
 ### Requisitos funcionales
@@ -141,6 +138,9 @@ La aplicación incluye los siguientes casos de uso:
         Permite obtener la lista de personas que compartieron instalación con una determinada
 		persona en un período de tiempo (normalmente hasta la fecha actual).
 		
+Los códigos QR están asociados a una persona e incluyen la siguiente
+información: nombre, apellidos, uuid de su entrada en la BD.
+TODO: formato de la información en el QR. Maybe csv-like: "{nombre},{apellidos},{uuid}"
 	
 
 <a href="{{page.url|baseUrl}}tarea_1" class="button big">Siguiente: Tarea 1</a>

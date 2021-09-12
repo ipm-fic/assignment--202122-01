@@ -97,6 +97,10 @@ número de ficheros.</p>
 <li>
 <p>El diseño de la interface está actualizado.</p>
 </li>
+<li>
+<p>Si usas librerías adicionales a Gtk+, incluye la información
+necesaria para su instalación.</p>
+</li>
 </ul>
 <h2>Autoevaluación</h2>
 <p>Para realizar una autoevaluación de esta tarea, puedes guiarte por las
@@ -199,7 +203,19 @@ y la libería GI para python. De nuevo, lo habitual es que estén
 empaquetados en tu distribución de linux. Por ejemplo en debian:</p>
 <pre><code>$ sudo apt install gir1.2-gtk-3.0 python3-gi
 </code></pre>
-<p>TODO: Por último, pero no menos importante, el servidor y la base de datos.</p>
+<p>Para generar los códigos QR, puedes usar la librería que consideres
+oportuna.  Por ejemplo
+<a href="https://github.com/lincolnloop/python-qrcode">python-qrcode</a> está
+escrita totalmente en python y está empaquetada en debian como
+<code>python3-qrcode</code>. Pero también hay otras como <code>python3-pyqrcode</code> o
+<code>python3-qrcodegen</code>.</p>
+<p>Por último, pero no menos importante, necesitas un despliegue del
+servidor y la base de datos del sistema. Durante la realización de la
+práctica, lo más conveniente es que uses tu propio despliegue. El
+<a href="https://github.com/nbarreira/ipm2122-server">repositorio del
+servidor</a> incluye toda la
+información que necesitas: instrucciones de instalación y ejecución, y
+documentación del api.</p>
 <p><a href="../tarea_3" class="button big">Siguiente: Tarea 3</a></p>
 
   

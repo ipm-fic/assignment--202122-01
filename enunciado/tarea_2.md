@@ -59,6 +59,9 @@ anteriores, tienes que cumplir los siguientes requisitos:
 	```
 	
   - El diseño de la interface está actualizado.
+
+  - Si usas librerías adicionales a Gtk+, incluye la información
+    necesaria para su instalación.
   
 
 ## Autoevaluación
@@ -126,7 +129,21 @@ empaquetados en tu distribución de linux. Por ejemplo en debian:
 $ sudo apt install gir1.2-gtk-3.0 python3-gi
 ```
 
-TODO: Por último, pero no menos importante, el servidor y la base de datos.
+Para generar los códigos QR, puedes usar la librería que consideres
+oportuna.  Por ejemplo
+[python-qrcode](https://github.com/lincolnloop/python-qrcode) está
+escrita totalmente en python y está empaquetada en debian como
+`python3-qrcode`. Pero también hay otras como `python3-pyqrcode` o
+`python3-qrcodegen`.
+
+
+Por último, pero no menos importante, necesitas un despliegue del
+servidor y la base de datos del sistema. Durante la realización de la
+práctica, lo más conveniente es que uses tu propio despliegue. El
+[repositorio del
+servidor](https://github.com/nbarreira/ipm2122-server) incluye toda la
+información que necesitas: instrucciones de instalación y ejecución, y
+documentación del api.
 
   
 <a href="{{page.url|baseUrl}}tarea_3" class="button big">Siguiente: Tarea 3</a>
