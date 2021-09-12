@@ -8,7 +8,8 @@ Este es el repositorio de la práctica 1 de IPM, curso 2021/22.
   > Cubrir todos los datos respetando el nombre de los campos.
 
   > Nota: El grupo de prácticas determina el profesor encargado de
-  > evaluar las prácticas.
+  > evaluar las prácticas. Si perteneceis a varios grupos, indicad
+  > sólo el correspondiente al profesor que corrige las prácticas.
   
   > Si tienes varias cuentas en github, salvo causa de fuerza mayor,
   > usa la misma para todas las prácticas.
