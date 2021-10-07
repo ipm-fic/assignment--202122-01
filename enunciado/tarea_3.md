@@ -110,7 +110,7 @@ usar una librería que proporcione una api de más alto nivel como:
     Empaquetado en debian como `python3-dogtail`
 
   - La librería que usamos en clase: [ipm_e2e](https://github.com/cabrero/ipm_e2e). 
-    Disponible en [PyPI](https://pypi.org/project/ipm-e2e/0.0.1/).
+    Disponible en [PyPI](https://pypi.org/project/ipm-e2e/).
 	
 	> Si vas a instalar librerías desde PyPI, asegúrate primero de
 	> concocer el [proceso y las distintas
